@@ -3,6 +3,7 @@
 # Community Hass.io Add-ons: Docker Enabler
 # Un-protected an add-on to gain full access to the Docker socket of Hassio.
 # ==============================================================================
+# shellcheck disable=SC1091
 source /usr/lib/hassio-addons/base.sh
 
 declare response
