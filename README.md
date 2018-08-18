@@ -66,7 +66,7 @@ Example add-on configuration:
 ### Option: `target`
 
 The name of the add-on to un-protect / give access to the Docker socket.
-Use the full name format `<repo slug>_<addon slug>`. 
+Use the full name format `<repo slug>_<addon slug>`.
 
 For example: `a0d7b954_ssh`
 
