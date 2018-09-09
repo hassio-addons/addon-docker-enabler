@@ -21,7 +21,7 @@ if ! response=$(curl --silent --show-error \
     --write-out '\n%{http_code}' --request "POST" \
     -H "X-HASSIO-KEY: ${HASSIO_TOKEN}" \
     -d '{ "protected": false }' \
-    "${HASS_API_ENDPOINT}/addons/${target}/options"
+    "${HASS_API_ENDPOINT}/addons/${target}/security"
 ); then
     hass.log.info "${response}"
     hass.log.die "Something went wrong contacting the API"
