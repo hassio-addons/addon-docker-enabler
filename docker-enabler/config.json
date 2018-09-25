@@ -13,6 +13,7 @@
     ],
     "boot": "manual",
     "hassio_api": true,
+    "hassio_role": "manager",
     "options": {
         "target": ""
     },
